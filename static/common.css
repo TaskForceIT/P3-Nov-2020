@@ -1,0 +1,69 @@
+.bottomSheet {
+  background-color: #e5e5e5;
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+.menuBar {
+  background-color: #e5e5e5;
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+.main {
+  background-color: #ffffff;
+}
+
+.mainSheet {
+  background-color: #ffffff;
+}
+
+.pui-animation {
+  top: calc(100vh - 50px);
+  left: 5px;
+}
+
+.confirmButton {
+  position: absolute;
+  cursor: default;
+  color: white;
+  letter-spacing: 1px;
+  background-color: #428fcc;
+  border-radius: 4px;
+  border-width: 0px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.confirmButton:hover {
+  background-color: #00629b;
+  cursor: pointer;
+}
+
+.exitButton {
+  position: absolute;
+  cursor: default;
+  color: red;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  border-width: 0px;
+  background-color: #e5e5e5;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.exitButton:hover {
+  cursor: pointer;
+}
+
+.menu {
+  border-width: 0px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+div.pui-menu table {
+  border-width: 0px;
+}
+
+div.pui-menu table tbody tr td {
+  border-width: 0px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

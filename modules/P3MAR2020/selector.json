@@ -1,0 +1,9 @@
+{ "text": "", "formats": [{
+  "screen": { "record format name": "screen1" },
+  "items": [
+    { "id": "Layout1", "field type": "layout", "left": "325px", "top": "45px", "template": "simple container", "height": "170px", "width": "160px" }, 
+    { "id": "Button1", "field type": "button", "css class": "button", "value": "Query", "left": "30px", "top": "15px", "width": "100px", "onclick": "pui.link(\"./query\");", "layout": "Layout1", "container": "1" }, 
+    { "id": "Button2", "field type": "button", "css class": "button", "value": "Program Call", "left": "30px", "top": "75px", "width": "100px", "onclick": "pui.link(\"./program\");\n", "layout": "Layout1", "container": "1" }, 
+    { "id": "Button3", "field type": "button", "css class": "button", "value": "Command", "left": "30px", "top": "135px", "width": "100px", "onclick": "pui.link(\"./command\");", "layout": "Layout1", "container": "1" }
+  ]
+}], "keywords": [], "long name aliases": true }
